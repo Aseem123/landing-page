@@ -3,66 +3,152 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Sunnyside agency landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="landing page.css
+  ">
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
 
-  We are creatives
-
-  Transform your brand
-
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
-
-  Learn more
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
-</html>
+      <header>
+          <nav>
+              <div class="logo">
+                  <a href="#">
+                      <img src="../images/logo.svg" />
+                  </a>
+              </div>
+              <div class="hamburger"><img src="../images/icon-hamburger.svg" alt=""></div>
+              <div class="menu">
+                  <a href="#about">About</a>
+                  <a href="#service">Services</a>
+                  <a href="#">Projects</a>
+                  <a href="#">Contact</a>
+              </div>
+          </nav>
+          <div class="h1_text">
+              <h1>We are creative</h1>
+          </div>
+          <a href="#about" class="down_arrow">
+              <img src="../images/icon-arrow-down.svg" />
+          </a>
+      </header>
+      <div class="about_container" id="about">
+          <div class="text_image">
+              <div class="text_container">
+                  <div class="text_wrapper">
+                      <h1>Transform your brand</h1>
+                      <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                      <a href="#"> <span>Learn More</span> </a>
+                  </div>
+              </div>
+              <div class="image_wrapper">
+                  <img src="../images/desktop/image-transform.jpg" alt="egg image">
+              </div>
+          </div>
+          <div class="image_text">
+              <div class="image_wrapper">
+                  <img src="../images/desktop/image-stand-out.jpg" alt="egg image">
+              </div>
+              <div class="text_container">
+                  <div class="text_wrapper">
+                      <h1>Stand out to the right audience</h1>
+                      <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+                      <a href="#" class='pink'> <span>Learn More</span> </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="service_container" id='service'>
+          <div class="graphic_designing">
+              <div class="bg_image">
+                  <img src="../images/desktop/image-graphic-design.jpg" alt="">
+              </div>
+              <div class="overlay">
+                  <h3>Graphic design</h3>
+                  <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+              </div>
+          </div>
+          <div class="photography">
+              <div class="bg_image">
+                  <img src="../images/desktop/image-photography.jpg" alt="">
+              </div>
+              <div class="overlay">
+                  <h3>Photography</h3>
+                  <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+              </div>
+          </div>
+      </div>
+      <div class="testimonial_container" id="testimonial">
+          <h3>Client Testimonial</h3>
+          <div class="testimonial_list">
+              <div class="testimonial-info">
+                  <div class="testimonial_image">
+                      <img src="../images/image-emily.jpg" alt="">
+                  </div>
+                  <div class="testimonial_para">
+                      <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                  </div>
+                  <div class="testimonial_user">
+                      <h4>Emily R.</h4>
+                      <p>Marketing Director</p>
+                  </div>
+              </div>
+              <div class="testimonial-info">
+                  <div class="testimonial_image">
+                      <img src="../images/image-thomas.jpg" alt="">
+                  </div>
+                  <div class="testimonial_para">
+                      <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+                  </div>
+                  <div class="testimonial_user">
+                      <h4>Thomas S.</h4>
+                      <p>Chief Operating Officer</p>
+                  </div>
+              </div>
+              <div class="testimonial-info">
+                  <div class="testimonial_image">
+                      <img src="../images/image-jennie.jpg" alt="">
+                  </div>
+                  <div class="testimonial_para">
+                      <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+                  </div>
+                  <div class="testimonial_user">
+                      <h4>Jennie F.</h4>
+                      <p>Business Owner</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="gallery_container" id="gallery">
+          <img src="../images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles">
+          <img src="../images/desktop/image-gallery-orange.jpg" alt="milk bottles">
+          <img src="../images/desktop/image-gallery-cone.jpg" alt="milk bottles">
+          <img src="../images/desktop/image-gallery-sugarcubes.jpg" alt="milk bottles">
+      </div>
+      <footer id="footer">
+          <div class="logo">
+              <a href="#">
+                  <img src="../images/logo.svg" alt="logo">
+              </a>
+          </div>
+          <div class="footer_menu">
+              <a href="#about">About</a>
+              <a href="#service">Services</a>
+              <a href="#gallery">Projects</a>
+          </div>
+          <div class="social_media">
+           <a href="#"><img src="../images/icon-facebook.svg" alt="facebook"></a>
+           <a href="#"><img src="../images/icon-instagram.svg" alt="instagram"></a>
+           <a href="#"><img src="../images/icon-pinterest.svg" alt="pinterest"></a>
+           <a href="#"><img src="../images/icon-twitter.svg" alt="twitter"></a>
+          </div>
+      </footer>
+  <script>
+      const hamburger = document.querySelector('.hamburger')
+      hamburger.addEventListener('click', (e) => {
+          const menu = document.querySelector('.menu');
+          menu.classList.toggle('is_active')
+      });
+  </script>
+  </body>
+  </html>
