@@ -15,6 +15,7 @@
                     <img src="../images/logo.svg" />
                 </a>
             </div>
+            <div class="hamburger"><img src="../images/icon-hamburger.svg" alt=""></div>
             <div class="menu">
                 <a href="#about">About</a>
                 <a href="#service">Services</a>
@@ -76,7 +77,6 @@
         </div>
     </div>
     <div class="testimonial_container" id="testimonial">
-       <div class="small_container">
         <h3>Client Testimonial</h3>
         <div class="testimonial_list">
             <div class="testimonial-info">
@@ -116,7 +116,6 @@
                 </div>
             </div>
         </div>
-       </div>
     </div>
     <div class="gallery_container" id="gallery">
         <img src="../images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles">
@@ -124,5 +123,30 @@
         <img src="../images/desktop/image-gallery-cone.jpg" alt="milk bottles">
         <img src="../images/desktop/image-gallery-sugarcubes.jpg" alt="milk bottles">
     </div>
+    <footer id="footer">
+        <div class="logo">
+            <a href="#">
+                <img src="../images/logo.svg" alt="logo">
+            </a>
+        </div>
+        <div class="footer_menu">
+            <a href="#about">About</a>
+            <a href="#service">Services</a>
+            <a href="#gallery">Projects</a>
+        </div>
+        <div class="social_media">
+         <a href="#"><img src="../images/icon-facebook.svg" alt="facebook"></a>
+         <a href="#"><img src="../images/icon-instagram.svg" alt="instagram"></a>
+         <a href="#"><img src="../images/icon-pinterest.svg" alt="pinterest"></a>
+         <a href="#"><img src="../images/icon-twitter.svg" alt="twitter"></a>
+        </div>
+    </footer>
+<script>
+    const hamburger = document.querySelector('.hamburger')
+    hamburger.addEventListener('click', (e) => {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('is_active')
+    });
+</script>
 </body>
 </html>
